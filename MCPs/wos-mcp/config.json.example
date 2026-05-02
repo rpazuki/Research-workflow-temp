@@ -1,0 +1,12 @@
+{
+  "_comment": "Web of Science MCP configuration. Copy this file to config.json and fill in your details. The wos_api_key is not required — authentication is handled by your institutional browser session (run the authenticate_wos tool).",
+
+  "unpaywall_email": "your.email@institution.ac.uk",
+
+  "curated_folder": "./curated",
+
+  "_notes": {
+    "unpaywall_email": "Used to identify you to the free Unpaywall open-access API when downloading papers. Your institutional email is fine.",
+    "curated_folder": "Default folder for downloaded PDFs. Relative to this config file, or use an absolute path. You can also pass destination_folder to the download_paper tool to save directly to a raw/ subfolder."
+  }
+}

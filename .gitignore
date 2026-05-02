@@ -1,0 +1,13 @@
+# API keys and private config
+MCPs/wos-mcp/config.json
+
+# Chromium browser session cache (WoS MCP authentication)
+MCPs/wos-mcp/browser-session/
+MCPs/wos-mcp/browser-session/**
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# macOS metadata
+**/.DS_Store

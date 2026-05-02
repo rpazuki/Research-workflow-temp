@@ -1,0 +1,8 @@
+# Web of Science MCP Server - Python dependencies
+# Install with:
+#   pip install -r requirements.txt
+#   playwright install chromium          separate step, downloads ~180 MB Chromium
+
+mcp[cli]>=1.3.0        # Anthropic MCP SDK (includes FastMCP)
+httpx>=0.27.0          # Async HTTP client (Unpaywall + PDF download)
+playwright>=1.44.0     # Browser automation (drives WoS via institutional SSO)

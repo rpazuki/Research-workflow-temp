@@ -1,0 +1,32 @@
+{
+  "_INSTRUCTIONS": "Add the 'web-of-science' block below into the 'mcpServers' object of your Claude Desktop config file. On Windows the config file is at: %APPDATA%\\Claude\\claude_desktop_config.json",
+
+  "mcpServers": {
+    "web-of-science": {
+      "command": "python",
+      "args": [
+        "C:/Users/rh2310/Research_vault/MCPs/wos-mcp/server.py"
+      ],
+      "env": {
+        "WOS_API_KEY": "PASTE_YOUR_CLARIVATE_API_KEY_HERE",
+        "UNPAYWALL_EMAIL": "roozbeh.pazuki@imperial.ac.uk"
+      }
+    }
+  },
+
+  "_VENV_ALTERNATIVE": {
+    "_comment": "If using a virtual environment, use the venv Python path instead:",
+    "mcpServers": {
+      "web-of-science": {
+        "command": "C:/Users/rh2310/Research_vault/MCPs/wos-mcp/.venv/Scripts/python.exe",
+        "args": [
+          "C:/Users/rh2310/Research_vault/MCPs/wos-mcp/server.py"
+        ],
+        "env": {
+          "WOS_API_KEY": "PASTE_YOUR_CLARIVATE_API_KEY_HERE",
+          "UNPAYWALL_EMAIL": "roozbeh.pazuki@imperial.ac.uk"
+        }
+      }
+    }
+  }
+}

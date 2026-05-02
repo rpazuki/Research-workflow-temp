@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "web-of-science": {
+      "command": "/usr/local/bin/python3",
+      "args": ["/Users/roozbeh/Research_vault/MCPs/wos-mcp/server.py"]
+    }
+  },
+  "_claudian": {
+    "servers": {
+      "web-of-science": {
+        "contextSaving": true
+      }
+    }
+  }
+}
