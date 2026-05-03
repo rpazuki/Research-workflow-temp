@@ -25,8 +25,7 @@ Research_vault/
 │       ├── FBA other constrains/
 │       ├── FBA solutions/
 │       └── paper Appnedix - Flux balance analysis primer/
-├── docs/
-│   └── README.md               ← human-browsable table of contents (scientific grouping)
+├── index.md                    ← human-browsable table of contents (GitHub Pages entry point)
 ├── wiki/                       ← LLM-maintained knowledge base
 │   ├── index.md                ← master content catalog (update on every change)
 │   ├── log.md                  ← append-only chronological log
@@ -73,7 +72,7 @@ Research_vault/
 | **CONCEPT SEARCH** | Search when the concept is described but the field terminology is unknown — preliminary mapping phase, then hands off to SEARCH | `skills/wiki-concept-search/SKILL.md` |
 | **LINT** | Health-check the wiki for broken links, orphans, etc. | `skills/wiki-lint/SKILL.md` |
 | **GLOSSARY** | Add or update a glossary entry and entity page | `skills/wiki-glossary/SKILL.md` |
-| **TOC** | Regenerate `docs/README.md` after major wiki additions — covers `wiki/` pages only | `skills/wiki-toc/SKILL.md` |
+| **TOC** | Regenerate `index.md` after major wiki additions — covers `wiki/` pages only | `skills/wiki-toc/SKILL.md` |
 
 ---
 
