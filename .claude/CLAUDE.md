@@ -27,6 +27,7 @@ Research_vault/
 │       └── paper Appnedix - Flux balance analysis primer/
 ├── wiki/                       ← LLM-maintained knowledge base
 │   ├── index.md                ← master content catalog (update on every change)
+│   ├── toc.md                  ← human-browsable table of contents (scientific grouping)
 │   ├── log.md                  ← append-only chronological log
 │   ├── overview.md             ← evolving synthesis of the whole field
 │   ├── glossary.md             ← alphabetical reference of key terms and definitions
@@ -34,6 +35,7 @@ Research_vault/
 │   ├── entities/               ← organisms, models, software tools, databases
 │   ├── sources/                ← one page per ingested source
 │   ├── analyses/               ← comparisons, query answers, deep dives
+│   ├── intros/                 ← comprehensive topic introductions for learning
 │   └── searches/               ← saved search results
 ├── skills/                     ← workflow skill files (read before executing a workflow)
 │   ├── wiki-ingest/SKILL.md
@@ -42,7 +44,8 @@ Research_vault/
 │   ├── wiki-query/SKILL.md
 │   ├── wiki-search/SKILL.md
 │   ├── wiki-lint/SKILL.md
-│   └── wiki-glossary/SKILL.md
+│   ├── wiki-glossary/SKILL.md
+│   └── wiki-toc/SKILL.md
 ├── MCPs/
 │   └── wos-mcp/                ← Web of Science MCP server (search + download)
 │       ├── server.py
@@ -69,6 +72,7 @@ Research_vault/
 | **CONCEPT SEARCH** | Search when the concept is described but the field terminology is unknown — preliminary mapping phase, then hands off to SEARCH | `skills/wiki-concept-search/SKILL.md` |
 | **LINT** | Health-check the wiki for broken links, orphans, etc. | `skills/wiki-lint/SKILL.md` |
 | **GLOSSARY** | Add or update a glossary entry and entity page | `skills/wiki-glossary/SKILL.md` |
+| **TOC** | Regenerate `wiki/toc.md` after major wiki additions — covers `wiki/` pages only | `skills/wiki-toc/SKILL.md` |
 
 ---
 

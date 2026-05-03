@@ -56,6 +56,7 @@ The agent reads a skill file before executing each workflow. All skill files liv
 | **GLOSSARY** | Add or update a glossary entry and entity page | "Add X to the glossary" |
 | **TALK NOTES** | Process seminar or lecture notes into the wiki | "Process these talk notes" |
 | **SPARSE TALK NOTES** | Enrich brief bullet notes with online research | "Enrich these sparse notes" |
+| **Table of Contents** | Regenerate the scientifically organised table of contents for the wiki. | "Update the wiki table of contents" |
 | **LINT** | Health-check the wiki for broken links and gaps | "Lint the wiki" |
 
 ---
