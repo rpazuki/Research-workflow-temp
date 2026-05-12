@@ -24,7 +24,7 @@ You are ingesting a new source document into the research wiki at `Research_vaul
    - Use LaTeX inline (`$...$`) for all equations.
 
 5. **Update entity pages** (`wiki/entities/`) for every organism, software tool, database, or model the paper centres on.
-   - Required sections: Description · Role in research · Key papers · See also
+   - Required sections: Description · Role in FBA research · Key papers · See also
 
 6. **Update `wiki/overview.md`** if the source meaningfully shifts the big picture. Skip for incremental contributions.
 

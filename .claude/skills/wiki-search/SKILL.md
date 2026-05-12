@@ -122,7 +122,7 @@ Before compiling the final page, scan all search results for **new entities** th
     - does not yet have a page in `wiki/entities/` or `wiki/concepts/`, **AND**
     - is referenced by two or more papers (or is a foundational/canonical work)?
 
-    Typical signals: a named model, software tool, database, organism, or method with its own name that appears in two or more papers or is a foundational/canonical work.
+    Typical signals: a named model (ESM-2, ProtBERT, GECKO…), a software tool (COBRApy, COMETS…), a database (BFD, UniRef…), an organism (*E. coli*, *S. cerevisiae*…), or a method with its own name (FSEOF, OptForce, dFBA…).
 
 14. **Create entity pages** for every identified new entity — one `wiki/entities/<slug>.md` or `wiki/concepts/<slug>.md` per entity. Use the standard template:
     - **Entity pages:** Description · Key Properties · Mathematical Formulation (if applicable) · Role in research · Comparison with related entities · Related Concepts · Sources

@@ -11,6 +11,7 @@ The vault covers **multiple research topics**. Additionally, **`Notes/Talks/`** 
 
 ```
 Research_vault/
+├── attachments/                ← downloaded images for wiki pages (organised by topic slug)
 ├── raw/                        ← immutable source documents (PDFs, images, HTML)
 │   └── FBA/                    ← topic: Flux Balance Analysis
 │       ├── FBA and AI/
@@ -106,6 +107,24 @@ Required sections: **Question** · **Answer** · **Evidence** · **Confidence** 
 
 ### Search pages (`wiki/searches/`)
 Filename: `search-<slugified-query>-<YYYYMMDD>.md`.
+
+---
+
+## Image embedding
+
+When producing **search pages** (`wiki/searches/`) or **intro pages** (`wiki/intros/`), include one or more images where a diagram, figure, or illustration would meaningfully aid understanding (e.g. a metabolic network diagram, a workflow schematic, a key equation figure).
+
+### Rules
+- **Download images only from freely accessible URLs** (Wikimedia Commons, open-access journal figures, CC-licensed sources). Do not embed images that require authentication.
+- **Save location:** `attachments/<topic-slug>/` — use the same topic slug as the wiki page (e.g. `attachments/fba/metabolic-network.png`).
+- **Filename:** lowercase, hyphenated, descriptive (e.g. `stoichiometric-matrix-example.png`).
+- **Embed in Markdown** using Obsidian's wikilink image syntax so vault-wide resolution works:
+  ```
+  ![[filename.png]]
+  ```
+  Place a caption line immediately below in italics: `*Figure: brief description. Source: URL or citation.*`
+- **Limit:** 1–3 images per page. Prefer one clear, high-value diagram over many mediocre ones.
+- **When no suitable free image exists**, skip silently — do not embed placeholder images or broken links.
 
 ---
 

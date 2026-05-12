@@ -1,6 +1,6 @@
 ---
 name: wiki-query
-description: Answer a research question using the wiki knowledge base. Trigger when the user asks a question about any topic covered in the wiki — phrases like "what is...", "how does...", "compare X and Y", "explain...", "which papers cover...", or any direct question that should be answered from existing wiki pages rather than new literature.
+description: Answer a research question using the wiki knowledge base. Trigger when the user asks a question about FBA, metabolic modelling, or any topic covered in the wiki — phrases like "what is...", "how does...", "compare X and Y", "explain...", "which papers cover...", or any direct question that should be answered from existing wiki pages rather than new literature.
 ---
 
 # Wiki QUERY Workflow

@@ -15,7 +15,7 @@ description: >
 
 Use this workflow when the **user's query is conceptually clear but terminologically fuzzy** — they describe what they want, but do not know what the field calls it, whether it exists as a named method, or how to phrase it for a database search.
 
-**Worked example:** "a method that finds the probability distribution over possible states — I'm not sure whether anyone has done it."
+**Worked example:** "flux balance variability that finds the probability of the flux ranges and/or pathway sampling that can find it by sampling — I'm not sure whether anyone has done it."
 → Preliminary phase discovers: the field is called *flux sampling*, two traditions exist (uniform MCMC and Bayesian), standard algorithms are CHRR / BaMFA / BayFlux.
 → Final phase runs [[wiki-search]] with those discovered terms.
 
@@ -25,7 +25,7 @@ Use this workflow when the **user's query is conceptually clear but terminologic
 
 | Situation | Skill to use |
 |-----------|-------------|
-| User knows the topic name (e.g. "search for enzyme kinetics") | [[wiki-search]] directly |
+| User knows the topic name ("search for enzyme-constrained FBA") | [[wiki-search]] directly |
 | User knows an author or paper ("find papers by Palsson on GEMs") | [[wiki-search]] directly |
 | User describes a concept in their own words without a field name | **This skill** |
 | User says "I'm not sure if this exists" | **This skill** |

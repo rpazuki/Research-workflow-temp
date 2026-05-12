@@ -42,7 +42,7 @@ sources: 0
 <Bulleted or sectioned details from research>
 
 ## Role in [domain]
-<How this term relates to the user's research domain>
+<How this term relates to FBA / metabolic modelling / the user's research>
 
 ## Examples / instances
 <Specific organisms, tools, databases, or models — if applicable>
